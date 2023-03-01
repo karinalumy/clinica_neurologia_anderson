@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+   margin-top: 20px;
+   margin-bottom: 20px;  
+}
+
+header img {
+    height: 120px;
+}
+
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    
+    width: 100%;
+
+    background-color: #cee2b8;
+    
+    font-weight: 700;    
+}
+
+.menu li {
+    float: left;
+    font-size: 16px;
+    margin-left: 100px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    list-style: none;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: #1a3b10;
+}
+
+.menu li a:hover{
+    cursor: pointer;
+    color: #3f8a28;
+}
+
+.banner{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    background-image: url('assets/neuro-anderson-pelichek.jpeg');
+    background-size: cover;
+	background-position: center;
+	padding: 100px 20px;
+	text-align: center;
+	color: #ffff;
+
+}
+
+.banner h1 {
+    width: 500px;
+    font-size: 30px;
+    font-weight: 700;
+    
+    color: black;
+    border-radius: 50px;
+    padding: 10px;
+    margin-top: 16px;
+    
+    
+}
+
+.banner button{
+    font-size: 16px;
+    font-weight: 700;
+    padding: 15px;
+    background-color:rgb(41, 41, 128);
+    border: none;
+    border-radius: 5px;
+}
+
+.banner button a {
+    text-decoration: none;
+    color: white;
+}
+
+.banner button:hover {
+    cursor: pointer;
+    background-color: rgb(20, 20, 68);
+}
+
+
+.services {
+    background-color: #cee2b8;
+       
+    padding-top: 35px;
+    padding-bottom: 35px;
+    
+}
+
+h1{
+    color: #1a3b10;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    margin-right: 150px;
+    margin-left: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    
+}
+
+.container li {
+    margin-right: 16px;
+    margin-left: 16px;
+    padding: 3px;
+    
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    margin-top: 20px;
+    margin-bottom: -5px;
+}
+
+
+img {
+    max-height: 400px;
+    margin-left: 100px;
+    margin-right: 50px;
+    
+}
+
+.description {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+}
+
+.about p {
+   margin-top: 16px;
+   align-items: center;
+   
+}
+
+.location {
+    width: 100%;
+    background-color: #cee2b8;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.maps{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.location h3, p, iframe{
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.location button {
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 15px;
+    background-color: #1a3b10;
+    border: none;
+    border-radius: 5px;
+
+    margin-left: 50px;
+}
+
+.location button:hover {
+    cursor: pointer;
+    background-color:#0c1b07;
+}
+
+.location button a {
+    text-decoration: none;
+    color: white;
+}
+
+.location iframe {
+    height: 250px;
+    width: 400px;
+}
