@@ -23,7 +23,6 @@ header img {
     height: 120px;
 }
 
-
 .menu {
     display: flex;
     justify-content: space-around;
@@ -42,6 +41,7 @@ header img {
     margin-top: 15px;
     margin-bottom: 15px;
     list-style: none;
+    font-size: 18px;
 }
 
 .menu li a{
@@ -106,8 +106,8 @@ header img {
 .services {
     background-color: #cee2b8;
        
-    padding-top: 35px;
-    padding-bottom: 35px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     
 }
 
@@ -223,4 +223,9 @@ img {
 .location iframe {
     height: 250px;
     width: 400px;
+}
+
+footer {
+    margin-top: 16px;
+    margin-bottom: 16px;
 }
