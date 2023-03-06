@@ -133,14 +133,16 @@ h1{
 }
 
 .container {
+    max-width: 100%;
+    margin-left: 5rem;
+    margin-right: 5rem;
     display: flex;
     flex-direction: row;
-    justify-content: center;
     flex-wrap: wrap;
     justify-content: center;
-    
-    
+    gap: 2.5rem;
 }
+
 
 .container li {
     padding-top: .3rem;
