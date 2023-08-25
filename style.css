@@ -69,36 +69,40 @@ header img {
 .banner{
     display: flex;
     flex-direction:column;
-    justify-content: center;
-    align-items: center;
-    
-    background-image: url('assets/neurologia-anderson-pelichek.jpg');
+    justify-content: flex-end;
+    align-items: flex-end;
+        
+    background-image: url('assets/background-edsons-botox.jpg');
     
     background-size: cover;
-	background-position: center;
-	padding: 10rem 2rem;
-	text-align: center;
+	background-position: left;
+	padding: 7rem 2rem;
+	
 	color: #ffff;
 
 }
 
 .banner h1 {
-    font-size: 3rem;
+    justify-content: flex-end;
+    text-align: right;
+    
+    font-size: 2.5rem;
     font-weight: 700;
 
-    max-width: 50rem;
-
-    color: black;
+    color: rgb(0, 0, 0);
     border-radius: 5rem;
-    padding: 1rem;
+
     margin-top: 1.6rem;
+    margin-right: 10rem;
 }
 
 .banner button{
+    width: fit-content;
+    margin-right: 10rem;
     font-size: 1.6rem;
     font-weight: 700;
     padding: 1.5rem;
-    background-color:rgb(41, 41, 128);
+    background-color:#1a3b10;
     border: none;
     border-radius: .5rem;
 }
@@ -152,7 +156,6 @@ h1{
 .about {
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: center;
     
     margin-top: 2rem;
@@ -173,7 +176,7 @@ img {
 }
 
 .about p {
-    max-width: 50rem;
+   max-width: 50rem;
    margin-top: 1.6rem;
    align-items: center;
    
@@ -198,6 +201,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    margin-left: 5rem;
 }
 
 .location button {
@@ -209,7 +213,8 @@ img {
     border: none;
     border-radius: .5rem;
 
-    margin-left: 5rem;
+    margin-left: 6rem;
+    margin-top: 2rem;
 }
 
 .location button:hover {
@@ -230,4 +235,32 @@ img {
 footer {
     margin-top: 1.6rem;
     margin-bottom: 1.6rem;
+}
+
+
+/* ---- MEDIA QUERIES ---- */
+@media (max-width: 40em) {
+    .banner h1 {
+        font-size: 1.5rem;
+        color: white;
+        margin-right: 1rem;
+        }
+    
+    .banner button{
+        margin-right: 1rem;
+        font-size: 1.2rem;
+        padding: 1rem;
+        }
+
+    .about {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-end;
+            
+        margin-top: 2rem;
+        margin-bottom: -0.5rem;
+        }
+    
+
 }
