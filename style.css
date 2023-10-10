@@ -164,6 +164,9 @@ h2{
     padding-bottom: .3rem;
 }
 
+
+/* ---------Sobre ---------*/
+
 .about {
     display: flex;
     flex-direction: row;
@@ -192,6 +195,8 @@ img {
    align-items: center;
    
 }
+
+/*----------localização--------*/
 
 .location {
     background-color: #cee2b8;
